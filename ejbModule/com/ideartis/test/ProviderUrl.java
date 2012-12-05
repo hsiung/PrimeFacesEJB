@@ -10,7 +10,7 @@ import javax.persistence.Id;
 public class ProviderUrl {
 	private Long id;
 	private String name;
-	//ImportStatus
+	//ImportStatus importStatus
 	
 	@Id @GeneratedValue()
 	public Long getId() {
